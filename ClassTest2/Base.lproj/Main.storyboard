@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Oz-V6-Fxl">
-                                <rect key="frame" x="152" y="57" width="72" height="27"/>
+                                <rect key="frame" x="162" y="57" width="52.5" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -86,7 +86,6 @@
                             <constraint firstItem="9Oz-V6-Fxl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="Jpz-iG-zlM"/>
                             <constraint firstItem="iX3-D6-3pk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NTQ-nJ-8El"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ggO-UC-r7V" secondAttribute="trailing" constant="40" id="QEn-Ad-Tym"/>
-                            <constraint firstItem="9Oz-V6-Fxl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="TOr-It-V3g"/>
                             <constraint firstItem="9Oz-V6-Fxl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WGL-i6-P8f"/>
                             <constraint firstItem="loV-UY-Vfi" firstAttribute="top" secondItem="H0n-C4-Nx8" secondAttribute="bottom" constant="10" id="aau-eS-7oX"/>
                             <constraint firstItem="ggO-UC-r7V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="j19-9H-9ti"/>
