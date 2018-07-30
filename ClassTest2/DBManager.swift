@@ -117,7 +117,7 @@ class DBManager: NSObject {
 		let dateFormatter = DateFormatter()
 		dateFormatter.dateFormat = format
 		dateFormatter.timeZone = TimeZone.ReferenceType.local
-		dateFormatter.locale = NSLocale(localeIdentifier: "en_US_POSIX") as Locale!
+        dateFormatter.locale = NSLocale(localeIdentifier: "en_US_POSIX") as Locale?
 		return dateFormatter.date(from: strDate)!
 	}
 	
